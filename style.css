@@ -1,0 +1,131 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+a {
+	color: #82589F;
+}
+h1 {
+	margin-left: -10px;
+	margin-bottom: -5px;
+	border-bottom: 1px dashed #82589F;
+	font-size: 25px;
+}
+ul {
+	list-style: none;
+}
+
+ul li::before {
+	content: "\2022";
+	color: #82589F;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.title {
+  position: absolute;
+  top: 5%;
+  font-size: 45px;
+  left: 5%;
+}
+.middle{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #82589F;
+  overflow: hidden;
+  position: relative;
+}
+.btn i{
+  line-height: 50px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #82589F;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+
+.personal-data {
+	position: absolute;
+	margin: 30px;
+	right: 40%;
+}
+.personal-data h1 {
+	margin-left: -10px;
+	margin-bottom: -5px;
+	border-bottom: 1px dashed #82589F;
+	font-size: 25px;
+}
+
+.education {
+	position: absolute;
+	width: 55%;
+	margin: 30px;
+	top: 25%;
+}
+
+.knowledge {
+	position: absolute;
+	width: 55%;
+	margin: 30px;
+	top: 40%;
+}
+.knowledge table {
+	margin: 10px;
+}
+
+.experience {
+	position: absolute;
+	width: 55%;
+	margin: 30px;
+	top: 93%;
+}
+
+.languages {
+	position: absolute;
+	width: 55%;
+	margin: 30px;
+	top: 110%;
+}
