@@ -88,9 +88,10 @@ ul li::before {
 }
 
 .personal-data {
-	position: absolute;
+	position: relative;
 	margin: 30px;
-	right: 40%;
+	left: 35%;
+	width: 62%;
 }
 .personal-data h1 {
 	margin-left: -10px;
@@ -100,32 +101,32 @@ ul li::before {
 }
 
 .education {
-	position: absolute;
-	width: 55%;
+	position: relative;
+	width: 97%;
 	margin: 30px;
 	top: 25%;
 }
 
 .knowledge {
-	position: absolute;
-	width: 55%;
+	position: relative;
+	width: 97%;
 	margin: 30px;
-	top: 40%;
+	top: 25%;
 }
 .knowledge table {
 	margin: 10px;
 }
 
 .experience {
-	position: absolute;
-	width: 55%;
+	position: relative;
+	width: 97%;
 	margin: 30px;
-	top: 93%;
+	top: 25%;
 }
 
 .languages {
-	position: absolute;
-	width: 55%;
+	position: relative;
+	width: 97%;
 	margin: 30px;
-	top: 110%;
+	top: 25%;
 }
