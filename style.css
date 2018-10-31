@@ -28,14 +28,16 @@ ul li::before {
 
 .title {
 	position: absolute;
-	top: 5%;
+	top: 2%;
 	font-size: 45px;
-	left: 5%;
+	left: 2%;
 }
 .middle {
-	position: absolute;
-	top: 20%;
-	left: 10%;
+	position: relative;
+	margin-top: -45px;
+	left: 0%;
+	height: 80px;
+	width: 480px;
 	transform: translateY(-50%);
 	text-align: center;
 }
@@ -91,8 +93,8 @@ ul li::before {
 .personal-data {
 	position: relative;
 	margin: 30px;
-	left: 35%;
-	width: 62%;
+	left: 40%;
+	width: 57%;
 }
 .personal-data h1 {
 	margin-left: -10px;
@@ -105,7 +107,7 @@ ul li::before {
 	position: relative;
 	width: 97%;
 	margin: 30px;
-	top: 25%;
+	margin-top: -50px;
 }
 
 .knowledge {
